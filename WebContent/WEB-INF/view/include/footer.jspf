@@ -1,0 +1,15 @@
+
+
+</div>
+
+<sec:authorize access="isAuthenticated()">
+	<div class="ui inverted vertical footer segment form-page">
+	User:  <sec:authentication property="principal.username" />, Role: <sec:authentication property="principal.authorities"/><div class="ui container">Intranet App</div>
+	
+	</div>
+</sec:authorize>
+
+	
+</div>
+</body>
+</html>
